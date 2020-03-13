@@ -89,7 +89,8 @@ export default function Board() {
   };
 
   const updateRender = lastMessage => {
-    let raw_notes = JSON.parse(lastMessage.data).match(/\{.*?\}/g);
+    console.log(JSON.parse(lastMessage.data))
+    let raw_notes = JSON.parse(lastMessage.data).match(/\{.*?\"}(?!")/g);
     let clean_notes = [];
     raw_notes.map(function(x) {
       clean_notes.push(JSON.parse(x));
