@@ -9,3 +9,28 @@ This app works with Django on back and React on front in order to write, save, d
 ### This is how it looks
 
 ![](webApp.gif)
+
+### How to run
+* In order to run this app you need:
+
+![Python 3.x](https://www.python.org/downloads/)
+![Node](https://nodejs.org/es/)
+![Virtualenv](https://pypi.org/project/virtualenv/)
+![yarn](https://classic.yarnpkg.com/es-ES/)
+
+* Commands:
+```
+1. Inside notesboard run:
+# yarn install
+# yarn start
+```
+``` Django
+2. Inside the directory run:
+# source appenv/bin/activate
+# python pip install requirements.txt
+# python3.6 manage.py runserver 9000
+```
+``` Enter the app
+```
+3. Go to ![the web app](http://localhost:3000/) and try it
+
