@@ -34,3 +34,12 @@ This app works with Django on back and React on front in order to write, save, d
 ```
 3. Go to [the web app](http://localhost:3000/) and try it
 
+* Run with Docker compose
+```
+1. Make sure you already have docker and docker-compose installed, on the directory where docker-compose.yml is located run:
+# docker-compose up
+```
+2. Go to [the web app](http://localhost:3000/) and try it
+
+
+
