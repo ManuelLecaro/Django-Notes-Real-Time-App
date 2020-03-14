@@ -13,10 +13,10 @@ This app works with Django on back and React on front in order to write, save, d
 ### How to run
 * In order to run this app you need:
 
-[Python 3.x](https://www.python.org/downloads/)
-[Node](https://nodejs.org/es/)
-[Virtualenv](https://pypi.org/project/virtualenv/)
-[yarn](https://classic.yarnpkg.com/es-ES/)
+1. [Python 3.x](https://www.python.org/downloads/)
+2. [Node](https://nodejs.org/es/)
+3. [Virtualenv](https://pypi.org/project/virtualenv/)
+4. [yarn](https://classic.yarnpkg.com/es-ES/)
 
 * Commands:
 ```
