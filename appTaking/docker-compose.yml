@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  django:
+    build: .
+    command: ["python", "manage.py", "runserver", "0.0.0.0:9000"]
+    volumes:
+      - .:/app/api
+    ports:
+      - "9000:9000"
+  redis:
+    image: "redis:alpine"
+  frontend:
+    build: ./notesboard
+    command: ["yarn", "start"]
+    volumes:
+      - ./notesboard:/app/notesboard
+      - node-modules:/app/notesboard/node_modules
+    ports:
+      - "3001:3000"
+    depends_on:
+        - django
+
+volumes:
+  node-modules:
