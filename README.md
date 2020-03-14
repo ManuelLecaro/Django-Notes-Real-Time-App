@@ -5,3 +5,7 @@
 ## Note Takin Web App
 
 This app works with Django on back and React on front in order to write, save, delete and update your post on real time with other people
+
+### This is how it looks
+
+![](webApp.gif)
